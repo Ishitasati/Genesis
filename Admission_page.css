@@ -2,6 +2,12 @@
    margin:0%;
    padding:0%;
 }
+.error-message {
+    color: red; /* Set the color to red for error messages */
+    font-size: 14px; /* Adjust font size if needed */
+    /* Add other styling as desired */
+}
+
 .back{
     font-weight: 100;
     font-family: 'Courier New', Courier, monospace;
