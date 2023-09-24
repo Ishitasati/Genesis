@@ -19,9 +19,16 @@
 
 .container {
   padding: 0 16px;
+  margin-left: -5%;
+  width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .container::after, .row::after {
+  
   content: "";
   clear: both;
   display: table;
@@ -49,7 +56,7 @@
 
 @media screen and (max-width: 650px) {
   .column {
-    width: 100%;
+    width: 25%;
     display: block;
   }
 }
